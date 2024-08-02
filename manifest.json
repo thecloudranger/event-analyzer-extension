@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Event Extractor",
+  "version": "1.0",
+  "description": "Extracts past event details and allows exporting",
+  "permissions": ["activeTab", "scripting", "sidePanel", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["lib/jspdf.umd.min.js", "lib/jspdf.umd.min.js.map"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "icons/filter.png",
+    "48": "icons/filter.png",
+    "128": "icons/filter.png"
+  }
+}

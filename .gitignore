@@ -1,0 +1,58 @@
+# .gitignore for Chrome Extension Project
+
+# Ignore node_modules directory in case you use npm for any development tools
+node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore Thumbs.db files on Windows
+Thumbs.db
+
+# Ignore any temporary files
+*.tmp
+
+# Ignore VSCode configuration files
+.vscode/
+
+# Ignore any personal API keys or secrets (if applicable)
+secrets.js
+config.js
+
+# Ignore compiled or minified JavaScript files (if you use a build process)
+dist/
+build/
+
+# Ignore any backup files
+*.bak
+
+# Ignore any IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore any local environment files
+.env
+
+# Ignore Chrome's packed extension files
+*.crx
+*.pem
+
+# Ignore zip files (often used for packaging extensions)
+*.zip
+
+# Ignore any user-specific files
+TODO.md
+NOTES.md
+
+# Ignore coverage directory (if you implement tests)
+coverage/
+
+# Ignore any local test files
+test/local/
+
+# Ignore manifest.json backups
+manifest.json.bak

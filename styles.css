@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.event {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.event-header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.toggle-icon {
+  font-size: 12px;
+}
+
+.event p {
+  margin: 10px 15px;
+  color: #666;
+}
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.details p {
+  margin: 15px;
+  color: #333;
+}
+
+.details a {
+  display: inline-block;
+  margin: 0 15px 15px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.details a:hover {
+  text-decoration: underline;
+}
+
+#exportButtons {
+  margin-bottom: 20px;
+}
+
+#exportButtons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#exportButtons button:hover {
+  background-color: #45a049;
+}
