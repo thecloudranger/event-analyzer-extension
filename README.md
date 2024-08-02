@@ -46,6 +46,8 @@ To load the extension in Chrome using Developer Mode:
 
 This extension is provided for educational and personal use only. Use it at your own risk. The developers are not responsible for any misuse or any consequences arising from the use of this extension. Always respect website terms of service and be mindful of data usage and privacy concerns when scraping information from websites.
 
+Favicon for extension: <a href="https://www.flaticon.com/free-icons/extraction" title="extraction icons">Extraction icons created by Iconjam - Flaticon</a>
+
 ## License
 
 This project is open source and available under the MIT License.
